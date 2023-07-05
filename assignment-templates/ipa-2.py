@@ -270,7 +270,7 @@ def scytale_decipher(message, shift):
 
     for letter in range(0, length):
         if new_str[letter] == "_":
-            str += " "     
+            str += "_"     
         else:
             str += new_str[letter]
             
